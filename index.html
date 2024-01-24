@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Arrays in Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Day 1-2: Introduction to Arrays in Python</h1>
+
+<p><strong>Overview of Arrays:</strong> Arrays are essential data structures in Python that allow you to store and manipulate collections of items. They provide efficient ways to organize, access, and modify data.</p>
+
+<p><strong>Declaration and Initialization:</strong> In Python, arrays are commonly represented using lists. Lists are ordered, mutable, and can contain elements of different data types.</p>
+
+<code>numbers = [1, 2, 3, 4, 5]</code>
+
+<p><strong>Indexing and Accessing Elements:</strong> Array elements are accessed by their index. Python uses zero-based indexing, meaning the first element is at index 0.</p>
+
+<code>first_element = numbers[0]  # Result: 1</code>
+
+<p><strong>Array Slicing:</strong> You can extract portions of an array using slicing. This is useful for working with subsets of data.</p>
+
+<code>subset = numbers[1:4]  # Result: [2, 3, 4]</code>
+
+<p><strong>Array Methods:</strong> Python provides a variety of built-in methods for manipulating arrays. These include <code>append()</code>, <code>remove()</code>, <code>pop()</code>, and <code>extend()</code>.</p>
+
+<code>numbers.append(6)  # Adds 6 to the end</code><br>
+<code>numbers.remove(3)  # Removes the element 3</code>
+
+<p><strong>Multidimensional Arrays:</strong> While lists can contain elements of any data type, you can create multidimensional arrays using lists of lists.</p>
+
+<code>matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]</code>
+
+<p><strong>Example:</strong></p>
+<pre>
+<code># Creating a list of temperatures
+temperatures = [25.5, 30.2, 22.8, 28.0, 26.5]
+
+# Accessing the third temperature (index 2)
+third_temperature = temperatures[2]
+print(third_temperature)  # Output: 22.8
+
+# Modifying the second temperature (index 1)
+temperatures[1] = 31.0
+print(temperatures)  # Output: [25.5, 31.0, 22.8, 28.0, 26.5]
+</code>
+</pre>
+
+<p>Understanding these concepts will empower you to work with arrays effectively in Python. Practice with different scenarios to solidify your understanding.</p>
+
+<!-- You can continue with more examples and challenges as needed -->
+
+</body>
+</html>
